@@ -72,3 +72,26 @@ button {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  #temperature {
+    font-size: 18px;
+    margin-bottom: 3px;
+  }
+
+  #description {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+}
